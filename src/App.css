@@ -1,0 +1,63 @@
+/* styles for the card and message box */
+body{
+    margin: auto;
+    
+    height: 100vh;
+}
+
+span:hover{
+    color: orange;
+}
+
+.card-body{
+    border-radius: 0 20% 0 0;
+    background: white;
+    position: absolute;
+    top: 83%;
+    box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.3);
+    width: 25.15em;
+    
+}
+
+.card{
+    margin: auto;
+    border: none;
+    box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.3)
+    
+}
+
+.message{
+    border-radius: 3px;
+    width: 400px;
+    margin-left: -100px;
+    background: red;
+    position: absolute;
+    top: 90%;
+    left: 43%;
+    
+}
+
+.message p{
+    padding-left: 150px;
+}
+.message input{
+    margin-left: 80px;
+    width: 250px;
+    border: none;
+    
+}
+
+.message img{
+    position: absolute;
+    bottom: 1%;
+    width: 90px;
+    height: 70px;
+}
+
+
+.btn{
+    margin-top: 5px;
+    width: 7em;
+    background: red;
+    border: none;
+}
